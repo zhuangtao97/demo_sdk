@@ -40,7 +40,7 @@
     
     self.view.backgroundColor = UIColor.whiteColor;
 
-    certifyId = @"67814fd1330dfa8d2e203d81bf20226fd";
+    certifyId = @"b813fc1df4dbc5096506c2cbb8e5b0bed";
     UILabel *initLabelDesc = [[UILabel alloc] initWithFrame:CGRectMake(20, 90, 200, 30)];
     initLabelDesc.text = @"认证";
     initLabelDesc.font = [UIFont systemFontOfSize:15];
@@ -80,7 +80,7 @@
         [self alertInfomation:@"还未获取到certifyId"];
         return;
     }
-    certifyId = @"67814fd1330dfa8d2e203d81bf20226fd";
+    certifyId = @"b813fc1df4dbc5096506c2cbb8e5b0bed";
     [_submitInfo setUserInteractionEnabled:NO];
     __weak ViewController*weakSelf = self;
     NSMutableDictionary  *extParams = [NSMutableDictionary new];
